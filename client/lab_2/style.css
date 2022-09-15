@@ -136,7 +136,7 @@ form {
 
 .right_section {
   background-color: rgba(255, 224, 138, 0.7);
-  flex: 1 2 auto;
+  flex: 0 2 auto;
   margin: 1rem;
   align-items: center;
 }
