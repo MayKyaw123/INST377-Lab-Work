@@ -1,5 +1,53 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+
+
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>May's Labs </title>
+      <link rel="stylesheet" href="style.css">
+    
+    </head>
+    
+    <body>
+      <div class="wrapper">
+        <header class="header"><h1>May's Labs For INST377</h1></header>
+        <div class="container">
+          <div class="left_section box">
+            <h3>Album Names</h3>
+            <ol class="box">
+              <li>The 1975</li>
+              <li>Immunity</li>
+              <li>Blonde</li>
+              <li>Apricot Princess</li>
+              <li>Ivory</li>
+            </ol>
+          </div>
+          <div class="right_section box">
+            <h3>Image Carousel</h3>
+            <div class="carousel">
+                <button class="prev">prev</button>
+                <div class="slides">
+                  <div class="carousel_item visible"><img id="slide_1" alt="Panda image 1 (jpg)" src="images/panda1.jpeg" /></div>
+                  <div class="carousel_item hidden"><img id="slide_2" alt="Panda image 2 (jpg)" src="images/panda2.jpeg" /></div>
+                  <div class="carousel_item hidden"><img id="slide_3" alt="Panda image 3 (jpg)" src="images/panda3.jpeg" /></div>
+                  <div class="carousel_item hidden"><img id="slide_4" alt="Panda image 4 (jpg)" src="images/panda4.jpeg" /></div>
+                </div>
+                <button class="next">next</button>
+            </div>
+            <div class="box">
+              Four various images of Pandas
+            </div>
+          </div>
+        </div>
+     
+      <footer class="footer">
+        YOUR GITHUB ACCOUNT NAME <a href="http://github.com/MayKyaw123" target="_blank" rel="noopener noreferrer">May Kyaw Github</a>
+    </footer>
+</div>
+    <script src="script.js" ></script>
+    </body>
+    
+    </html>
