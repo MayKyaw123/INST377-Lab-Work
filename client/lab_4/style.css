@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-h2 {
+h2, h3 {
   margin:0;
   padding:0;
   padding-bottom:1.5rem;
@@ -92,7 +92,7 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
+  background-color: #fcc359;
   color: #4a4a4a;
 
   /* shapes */
@@ -128,17 +128,20 @@ form {
 }
 
 .left_section {
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgba(0, 139, 46, 0.8);
   flex: 0 1 auto;
   margin: 1rem;
   padding: 1.5rem;
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  background-color: rgba(198, 138, 255, 0.7);
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
   max-width: 450px;
 }
 
@@ -151,13 +154,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgba(148, 245, 245, 0.8);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgba(255, 224, 138, 1);
+  color: rgb(255, 152, 138);
   text-decoration: underline;
 }
 
@@ -170,7 +173,7 @@ form {
   /* Hue, saturation, luminosity, alpha */
   background-color: hsla(0, 0%, 90%, 0.15);
   /* red, green, blue, alpha */
-  color: rgb(246, 169, 93);
+  color: rgb(218, 93, 246);
   text-decoration: none;
 }
 
@@ -300,5 +303,8 @@ form label {
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
       background-color: rgba(204, 8, 162, 0.65);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
 }
